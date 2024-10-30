@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <style>
+       
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+
+      
+        .container {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+
+        
+        .left-section {
+            text-align: left;
+        }
+
+        .left-section h1 {
+            color: #1877F2;
+            font-size: 3rem;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .left-section p {
+            font-size: 1.2rem;
+            color: #606770;
+        }
+
+        
+        .login-form {
+            background-color: white;
+            width: 250px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .login-form button.login-btn {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            background-color: #1877F2;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .login-form button.login-btn:hover {
+            background-color: #165cbb;
+        }
+
+        .login-form a.forgot-password {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #1877F2;
+            text-decoration: none;
+        }
+
+        .login-form a.forgot-password:hover {
+            text-decoration: underline;
+        }
+
+        .login-form button.create-account-btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #42b72a;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .login-form button.create-account-btn:hover {
+            background-color: #36a420;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+      
+        <div class="left-section">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+
+        <div class="login-form">
+            <input type="text" placeholder="Email or phone number">
+            <input type="password" placeholder="Password">
+            <button class="login-btn">Login</button>
+            <a href="#" class="forgot-password">Forgot password?</a>
+            <hr>
+            <button class="create-account-btn">Create new account</button>
+        </div>
+    </div>
+
+</body>
+</html>
